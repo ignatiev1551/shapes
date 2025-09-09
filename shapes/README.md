@@ -11,7 +11,15 @@
 
 ## Установка
 
-pip install git+https://github.com/ignatiev1551/shapes.git
+- Клонируем проект
+git clone https://github.com/ignatiev1551/shapes.git
+- Переходим в папку
+cd shapes/shapes
+- Устанавливаем и активируем виртуальное окружение
+python -m venv venv && \
+source venv/bin/activate
+- Устанавливаем пакет 
+pip install . 
 
 ## Использование
 
